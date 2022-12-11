@@ -14,6 +14,10 @@ const RoomSchema = new Schema({
         type: [UserSchema],
         required: false
     },
+    admin: {
+        type: [UserSchema],
+        required: false
+    },
     created_at: {
         type: Date,
         default: Date.now(),
