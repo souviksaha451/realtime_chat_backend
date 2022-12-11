@@ -1,5 +1,5 @@
 const express = require("express");
-const user = require("../Schema/UserSchema");
+const {user} = require("../Schema/UserSchema");
 const bcrypt = require("bcrypt");
 const router = express.Router();
 const nodemailer = require("nodemailer")
